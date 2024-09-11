@@ -1,0 +1,110 @@
+
+@font-face {
+  font-family: partyconfetti;
+  src: url("PartyConfetti.ttf");
+}
+body {
+    text-align: center;
+    font-family: partyconfetti;
+    font-size: small;
+    background: linear-gradient(blue, pink);
+    color: aliceblue;  
+}
+
+h1, h2, h3, h4 {
+  text-shadow: 0px 0px 2px black;
+}
+
+#doro-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid aliceblue;
+    margin-bottom: 22px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#bday-date, #bday-age {
+  background-color: #FFC8FB;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin: 6px ;
+  
+}
+
+.gift-section {
+  margin-top: 70px;
+  
+  
+}
+
+.subtitle{
+  margin: 15px;
+}
+
+#instructions {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.gift {
+  width: 400px;
+  height: 400px;
+  background-image: url("images/gift.jpg");
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid #FFC8FB;
+  border-radius: 10px;
+}
+
+#gift-img-happy:hover {
+  background-image: url("images/happy4you.webp");
+}
+
+#reaction2you-img:hover {
+  background-image: url("images/reaction2you.webp");
+  background-size: cover;
+
+}
+
+#oneword-img:hover {
+  background-image: url("images/oneword.webp");
+  background-size: cover;
+
+}
+
+#badass-img:hover {
+  background-image: url("images/badass.webp");
+  background-size: cover;
+
+}
+#cookie-img {
+   width: 400px;
+   height: 200px;
+   background-position: center;
+  
+}
+
+#cookie-img:hover {
+  background-image: url("images/cookie.webp");
+}
+
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 0 30px 0;
+  font-size: medium;
+  font-style: italic;
+  width: 400px;
+  text-align: center;
+}
+
+a {
+  color: aliceblue;
+}
